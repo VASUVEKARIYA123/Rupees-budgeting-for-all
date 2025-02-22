@@ -1,0 +1,30 @@
+name: tt
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  firebase_auth: ^5.2.0
+  google_sign_in: ^6.2.1
+  firebase_storage: ^12.2.0
+  cloud_firestore: ^5.4.0
+  firebase_core: ^3.4.0
+  local_auth: ^2.3.0
+  provider: ^6.1.2
+  intl: ^0.17.0
+  syncfusion_flutter_charts: ^21.2.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
