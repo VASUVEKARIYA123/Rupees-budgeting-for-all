@@ -5,7 +5,7 @@ Rupees is designed for individuals who want to track their spending without manu
 
 **📌 Price Prediction Model**  
 
-]📥 **[Download Jupyter Notebook (.ipynb)](https://github.com/VASUVEKARIYA123/Rupees-budgeting-for-all/blob/main/Additional%20Files/Product_price_Model.ipynb)** (Product Price Prediction)  
+📥 **[Download Jupyter Notebook (.ipynb)](https://github.com/VASUVEKARIYA123/Rupees-budgeting-for-all/blob/main/Additional%20Files/Product_price_Model.ipynb)**  
 
 
 ## **📌 Screenshots**  
