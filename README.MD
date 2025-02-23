@@ -5,8 +5,8 @@ Rupees is designed for individuals who want to track their spending without manu
 
 **📌 Download App & Notebook**  
 
-📥 **[Download Rupees APK](./Additional Files/Rupees.apk)** (Android)  
-📥 **[Download Jupyter Notebook (.ipynb)](./Additional Files/Product_price_Model.ipynb)** (Product Price Prediction)  
+📥 **[Download Rupees APK](https://github.com/VASUVEKARIYA123/Rupees-budgeting-for-all/blob/main/Additional%20Files/Rupees.apk)** (Android)  
+📥 **[Download Jupyter Notebook (.ipynb)](https://github.com/VASUVEKARIYA123/Rupees-budgeting-for-all/blob/main/Additional%20Files/Product_price_Model.ipynb)** (Product Price Prediction)  
 
 
 ## **📌 Screenshots**  
