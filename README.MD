@@ -1,41 +1,86 @@
-# Rupees - Budgeting for all
+# **💰 Rupees - Budgeting for All**  
 
-## Overview
-Rupees is designed for individuals who want to track their spending without manual entry. It automatically tracks UPI payments, categorizes expenses, and provides detailed analytics. For managing shared finances, such as in families or groups, Rupees simplifies tracking, splitting, and settling expenses. It also supports recurring payments and data export for further analysis. With a user-friendly interface, strong security, and reliable performance, Rupees makes financial management easy and accessible.
+## **Overview**  
+**Rupees** is designed for individuals who want to track their spending without manual entry. It automatically tracks **UPI payments**, categorizes expenses, and provides **detailed analytics**.  
 
-## Home Screen
-<img src="./images/1.jpg" width="250" height="auto" />
+For managing **shared finances** (families, friends, or groups), Rupees simplifies **tracking, splitting, and settling expenses**.  
 
-## Add Expense Screen
-<img src="./images/2.jpg" width="250" height="auto" />
+### **Key Features**  
+✅ Automatic UPI Payment Tracking  
+✅ Smart Expense Categorization  
+✅ Group Expense Management  
+✅ Recurring Payments Support  
+✅ Data Export for Analysis  
+✅ Secure & User-Friendly  
 
-## Report Screen
-<img src="./images/3.jpg" width="250" height="auto" />
+---
 
-## Login Screen
-<img src="./images/4.jpg" width="250" height="auto" />
+## **📌 Screenshots**  
 
-## Reset Password Screen
-<img src="./images/5.jpg" width="250" height="auto" />
+### **🏠 Home & Expense Tracking**  
+<table>
+  <tr>
+    <td align="center"><b>Home Screen</b></td>
+    <td align="center"><b>Add Expense</b></td>
+    <td align="center"><b>Report</b></td>
+  </tr>
+  <tr>
+    <td><img src="./images/1.jpg" width="250"></td>
+    <td><img src="./images/2.jpg" width="250"></td>
+    <td><img src="./images/3.jpg" width="250"></td>
+  </tr>
+</table>
 
-<img src="./images/7.jpg" width="250" height="auto" />
+---
 
-<img src="./images/9.jpg" width="250" height="auto" />
+### **🔐 Authentication Screens**  
+<table>
+  <tr>
+    <td align="center"><b>Login</b></td>
+    <td align="center"><b>Reset Password</b></td>
+    <td align="center"><b>Security Check</b></td>
+  </tr>
+  <tr>
+    <td><img src="./images/4.jpg" width="250"></td>
+    <td><img src="./images/5.jpg" width="250"></td>
+    <td><img src="./images/7.jpg" width="250"></td>
+  </tr>
+</table>
 
-## Groups Screen
-<img src="./images/10.jpg" width="250" height="auto" />
+---
 
-## Create Group Screen
-<img src="./images/8.jpg" width="250" height="auto" />
+### **👥 Group Expense Management**  
+<table>
+  <tr>
+    <td align="center"><b>Groups</b></td>
+    <td align="center"><b>Create Group</b></td>
+    <td align="center"><b>Group Expense</b></td>
+  </tr>
+  <tr>
+    <td><img src="./images/10.jpg" width="250"></td>
+    <td><img src="./images/8.jpg" width="250"></td>
+    <td><img src="./images/12.jpg" width="250"></td>
+  </tr>
+</table>
 
-## Group Expense Screen
-<img src="./images/12.jpg" width="250" height="auto" />
+---
 
-## Add Expense Screen
-<img src="./images/11.jpg" width="250" height="500" />
+### **📝 Expense Details & Settlement**  
+<table>
+  <tr>
+    <td align="center"><b>Add Expense</b></td>
+    <td align="center"><b>Expense Description</b></td>
+    <td align="center"><b>Expense Status</b></td>
+  </tr>
+  <tr>
+    <td><img src="./images/11.jpg" width="250" height="500"></td>
+    <td><img src="./images/14.jpg" width="250"></td>
+    <td><img src="./images/15.jpg" width="250"></td>
+  </tr>
+</table>
 
-## Expense Description Screen
-<img src="./images/14.jpg" width="250" height="auto" />
+---
 
-## Group Expense Status Screen
-<img src="./images/15.jpg" width="250" height="auto" />
+### **📢 Stay Updated!**  
+🔹 More features coming soon!  
+🔹 Your feedback helps us improve. 🚀  
