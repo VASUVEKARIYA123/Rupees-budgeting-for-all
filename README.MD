@@ -3,10 +3,9 @@
 ## **Overview**  
 Rupees is designed for individuals who want to track their spending without manual entry. It automatically tracks UPI payments, categorizes expenses, and provides detailed analytics. For managing shared finances, such as in families or groups, Rupees simplifies tracking, splitting, and settling expenses. It also supports recurring payments and data export for further analysis. With a user-friendly interface, strong security, and reliable performance, Rupees makes financial management easy and accessible.
 
-**📌 Download App & Notebook**  
+**📌 Price Prediction Model**  
 
-📥 **[Download Rupees APK](https://github.com/VASUVEKARIYA123/Rupees-budgeting-for-all/blob/main/Additional%20Files/Rupees.apk)** (Android)  
-📥 **[Download Jupyter Notebook (.ipynb)](https://github.com/VASUVEKARIYA123/Rupees-budgeting-for-all/blob/main/Additional%20Files/Product_price_Model.ipynb)** (Product Price Prediction)  
+]📥 **[Download Jupyter Notebook (.ipynb)](https://github.com/VASUVEKARIYA123/Rupees-budgeting-for-all/blob/main/Additional%20Files/Product_price_Model.ipynb)** (Product Price Prediction)  
 
 
 ## **📌 Screenshots**  
