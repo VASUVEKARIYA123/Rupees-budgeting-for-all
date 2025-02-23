@@ -1,5 +1,6 @@
 import 'dart:developer';
-
+import 'dart:convert';
+import 'package:http/http.dart' as http;
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 // import 'package:flutter/material.dart';
@@ -9,8 +10,8 @@ final FirebaseAuth _auth = FirebaseAuth.instance;
 
 // Get current user's ID
 String getUserId() {
-  log("Current User Value:-- ${_auth.currentUser}");
-  return _auth.currentUser?.uid ?? '';
+  // log("Current User Value:-- ${_auth.currentUser}");
+  return "67b9a5b59ad00898857ff5bf";
 }
 
 class HomeService {
@@ -84,29 +85,66 @@ class UserService {
   //   return null;
   // }
 */
+
+
+
+
+
+  // Future<Map<String, dynamic>?> getUserData() async {
+  //   try {
+  //     String userId = getUserId();
+  //     log("User id = $userId");
+  //
+  //     DocumentSnapshot userDoc =
+  //         await _firestore.collection('Users').doc(userId).get();
+  //
+  //     log("User doc data = ${userDoc.data()}");
+  //
+  //     if (userDoc.exists && userDoc.data() != null) {
+  //       Map<String, dynamic>? userData =
+  //           userDoc.data() as Map<String, dynamic>?;
+  //       log("User data map = $userData");
+  //
+  //       return userData;
+  //     } else {
+  //       log("User document does not exist or has no data.");
+  //     }
+  //   } catch (e) {
+  //     print('Error fetching user data: $e');
+  //   }
+  //
+  //   return null;
+  // }
+
+
+
+
+
   Future<Map<String, dynamic>?> getUserData() async {
     try {
-      String userId = getUserId();
-      log("User id = $userId");
+      String userId = getUserId(); // Your method to get userId
+      String baseUrl = "http://10.10.30.166:5000"; // Replace with your server's IP
+      String endpoint = "/users"; // Adjust according to your API
+      String url = "$baseUrl$endpoint";
 
-      DocumentSnapshot userDoc =
-          await _firestore.collection('Users').doc(userId).get();
+      print("Fetching user data from: $url");
 
-      log("User doc data = ${userDoc.data()}");
+      final response = await http.get(Uri.parse(url));
 
-      if (userDoc.exists && userDoc.data() != null) {
-        Map<String, dynamic>? userData =
-            userDoc.data() as Map<String, dynamic>?;
-        log("User data map = $userData");
+      print("-1");
+      if (response.statusCode == 200) {
+        Map<String, dynamic> userData = jsonDecode(response.body);
+        print("User Data: $userData");
 
         return userData;
       } else {
-        log("User document does not exist or has no data.");
+        print("Error: ${response.statusCode}, ${response.body}");
       }
     } catch (e) {
-      print('Error fetching user data: $e');
+      print("Error fetching user data: $e");
     }
 
     return null;
   }
+
 }

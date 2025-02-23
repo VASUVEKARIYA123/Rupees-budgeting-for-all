@@ -2,10 +2,12 @@
 
 import 'dart:developer';
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:local_auth/local_auth.dart';
 import 'package:flutter/services.dart';
-import 'package:tt/main.dart';
+import 'package:myapp/main.dart';
+import 'package:myapp/homeScreen/home_screen4.dart';
 
 class BiometricAuthScreen extends StatefulWidget {
   const BiometricAuthScreen({super.key});
@@ -29,9 +31,9 @@ class _BiometricAuthScreenState extends State<BiometricAuthScreen> {
         _getAvalibleBiometrics();
         _authenticate();
       } else {
-        Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (context) => const AuthWrapper()),
-        );
+        // Navigator.of(context).pushReplacement(
+        //   // MaterialPageRoute(builder: (context) => const AuthWrapper()),
+        // );
       }
     });
   }
@@ -58,9 +60,9 @@ class _BiometricAuthScreenState extends State<BiometricAuthScreen> {
       log("Error using biometrics: $e");
     }
     if (authenticated) {
-      Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (context) => const AuthWrapper()),
-      );
+      // Navigator.of(context).pushReplacement(
+      //   MaterialPageRoute(builder: (context) => const AuthWrapper()),
+      // );
     } else {
       SystemNavigator.pop(); // Exit app if authentication fails
     }
@@ -68,11 +70,18 @@ class _BiometricAuthScreenState extends State<BiometricAuthScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
-        child:
-            CircularProgressIndicator(), // Show loading indicator during authentication
-      ),
+    return FutureBuilder(
+      future: Future.delayed(Duration.zero, () {
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(builder: (context) => const HomeScreen()),
+        );
+      }),
+      builder: (context, snapshot) {
+        return Scaffold(
+          body: Center(child: HomeScreen()), // Temporary loading screen
+        );
+      },
     );
   }
 }

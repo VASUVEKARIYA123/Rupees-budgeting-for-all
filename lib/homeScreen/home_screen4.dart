@@ -512,12 +512,14 @@
 
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:tt/addExpense/addExpenseServices.dart';
-import 'package:tt/auth/auth_service.dart';
-import 'package:tt/addExpense/addv2.dart';
+import 'package:myapp/addExpense/addExpenseServices.dart';
+import 'package:myapp/auth/auth_service.dart';
+import 'package:myapp/addExpense/addv2.dart';
 // ignore: unused_import
-import 'package:tt/group/group_home_screen.dart';
-import 'package:tt/homeScreen/homeScreenServices.dart';
+import 'package:myapp/group/group_home_screen.dart';
+import 'package:myapp/homeScreen/homeScreenServices.dart';
+import 'package:myapp/report/reportServices.dart';
+import 'package:myapp/report/report_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -723,22 +725,20 @@ class _HomeScreenState extends State<HomeScreen> {
             label: 'Group',
           ),
         ],
-        // onTap: (index) {
-        //   if (index == 0) {
-        //     Navigator.push(
-        //       context,
-        //       MaterialPageRoute(builder: (context) => ReportPage()),
-        //     );
-        //   }
-        // },
-        // onTap: (index) {
-        //   if (index == 2) {
-        //     Navigator.push(
-        //       context,
-        //       MaterialPageRoute(builder: (context) => groupHomeScreen()), // Group Screen
-        //     );
-        //   }
-        // },
+        onTap: (index) {
+          if (index == 0) {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => ReportPage()),
+            );
+          }
+          else if(index == 2) {
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => groupHomeScreen()), // Group Screen
+            );
+          }
+        },
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );

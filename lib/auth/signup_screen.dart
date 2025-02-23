@@ -1,11 +1,11 @@
 import 'dart:developer';
 
-import 'package:tt/auth/auth_service.dart';
-import 'package:tt/auth/login_screen.dart';
-import 'package:tt/homeScreen/home_screen4.dart';
-import 'package:tt/initBalance/InitBalance_screen.dart';
-import 'package:tt/widgets/button.dart';
-import 'package:tt/widgets/textfield.dart';
+import 'package:myapp/auth/auth_service.dart';
+import 'package:myapp/auth/login_screen.dart';
+import 'package:myapp/homeScreen/home_screen4.dart';
+import 'package:myapp/initBalance/InitBalance_screen.dart';
+import 'package:myapp/widgets/button.dart';
+import 'package:myapp/widgets/textfield.dart';
 import 'package:flutter/material.dart';
 
 class SignupScreen extends StatefulWidget {

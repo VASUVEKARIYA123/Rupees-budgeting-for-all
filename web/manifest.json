@@ -1,6 +1,6 @@
 {
-    "name": "tt",
-    "short_name": "tt",
+    "name": "myapp",
+    "short_name": "myapp",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

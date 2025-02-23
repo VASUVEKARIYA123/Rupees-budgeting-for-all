@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:tt/homeScreen/homeScreenServices.dart';
+import 'package:myapp/homeScreen/homeScreenServices.dart';
 
 class HomeScreen extends StatelessWidget {
   final String userId = 'L0NyCIHU2WNKD42Q8g03do5RBQH2';

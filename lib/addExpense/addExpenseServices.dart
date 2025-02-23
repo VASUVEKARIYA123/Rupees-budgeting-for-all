@@ -138,10 +138,10 @@ class ExpenseService {
         double.tryParse(amount) ?? 0.0; // Safely parse the amount to a double
     var status = false;
 
-    if (userId.isEmpty) {
-      log("User not logged in");
-      return false;
-    }
+    // if (userId.isEmpty) {
+    //   log("User not logged in");
+    //   return false;
+    // }
 
     // Validate inputs
     if (title.isEmpty || categ.isEmpty || amunt <= 0) {

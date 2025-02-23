@@ -1,13 +1,16 @@
-# Real Estate MERN Application
+# myapp
 
-## Overview
-Rupees is designed for individuals who want to track their spending without manual entry. It automatically tracks UPI payments, categorizes expenses, and provides detailed analytics. For managing shared finances, such as in families or groups, Rupees simplifies tracking, splitting, and settling expenses. It also supports recurring payments and data export for further analysis. With a user-friendly interface, strong security, and reliable performance, Rupees makes financial management easy and accessible.
+A new Flutter project.
 
-## Home Screen
-<img src="./images/1.jpg" width="400" height="auto" />
+## Getting Started
 
-## Add Expense Screen
-<img src="./images/2.jpg" width="400" height="auto" />
+This project is a starting point for a Flutter application.
 
-## Report Screen
-<img src="./images/3.jpg" width="400" height="auto" />
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.

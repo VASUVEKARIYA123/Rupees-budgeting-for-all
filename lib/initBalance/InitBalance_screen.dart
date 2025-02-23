@@ -1,10 +1,10 @@
 import 'dart:developer';
 
 import 'package:flutter/material.dart';
-import 'package:tt/homeScreen/home_screen4.dart';
-import 'package:tt/initBalance/initBalance_service.dart';
-import 'package:tt/widgets/button.dart';
-import 'package:tt/widgets/textfield.dart';
+import 'package:myapp/homeScreen/home_screen4.dart';
+import 'package:myapp/initBalance/initBalance_service.dart';
+import 'package:myapp/widgets/button.dart';
+import 'package:myapp/widgets/textfield.dart';
 
 class AddBalanceScreen extends StatefulWidget {
   const AddBalanceScreen({super.key});

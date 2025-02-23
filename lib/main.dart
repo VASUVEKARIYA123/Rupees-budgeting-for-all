@@ -1,18 +1,23 @@
 import 'dart:async';
 import 'dart:developer';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:tt/BiometricAuth/BiometricAuthScreen.dart';
+import 'package:myapp/BiometricAuth/BiometricAuthScreen.dart';
+import 'package:myapp/firebase_options.dart';
 // import 'package:myapp/homeScreen/home_screen.dart';
-import 'package:tt/homeScreen/home_screen4.dart';
-import 'package:tt/auth/login_screen.dart';
+import 'package:myapp/homeScreen/home_screen4.dart';
+import 'package:myapp/auth/login_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+// import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 // import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
 Future<void> main() async {
+
   WidgetsFlutterBinding.ensureInitialized();
 
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform
+  );
 
   runApp(const MyApp());
 }
@@ -28,7 +33,7 @@ class MyApp extends StatelessWidget {
           useMaterial3: true,
         ),
         debugShowCheckedModeBanner: false,
-        home: const BiometricAuthScreen());
+        home: const HomeScreen());
   }
 }
 
@@ -63,14 +68,14 @@ class AuthWrapper extends StatelessWidget {
 }
 
 // import 'package:flutter/material.dart';
-
+//
 // void main() {
 //   runApp(const MyApp());
 // }
-
+//
 // class MyApp extends StatelessWidget {
 //   const MyApp({super.key});
-
+//
 //   @override
 //   Widget build(BuildContext context) {
 //     return const MaterialApp(

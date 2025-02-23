@@ -14,6 +14,7 @@ import 'package:flutter/foundation.dart'
 ///   options: DefaultFirebaseOptions.currentPlatform,
 /// );
 /// ```
+
 class DefaultFirebaseOptions {
   static FirebaseOptions get currentPlatform {
     if (kIsWeb) {
@@ -50,6 +51,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
+
     apiKey: 'AIzaSyAZpnUtl3X1T6RfHQOjnU9O08hNShYnqkI',
     appId: '1:855703390295:web:d4f7f8ece91edd0b8d7b12',
     messagingSenderId: '855703390295',
